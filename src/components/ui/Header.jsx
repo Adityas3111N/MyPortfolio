@@ -8,7 +8,7 @@ import { toggleDarkModeClass } from "@/utils/theme";
 import { Link } from "react-router-dom";  // Import the Link component
 
 const Header = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
