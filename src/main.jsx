@@ -1,7 +1,7 @@
 import { Children, StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Hero, BluePrint, About , Projects, SkillShowcase, Startups, Testimonials, ProjectCTA, ContactUs, AboutPage, ProjectsPage, OffTheClockSection, ResumePage} from './components/index.js'
+import { Hero, BluePrint, About , Projects, SkillShowcase, Startups, Testimonials, ProjectCTA, ContactUs, AboutPage, ProjectsPage, OffTheClockSection} from './components/index.js'
 import App from './App.jsx'
 
 const router = createBrowserRouter([
@@ -40,10 +40,6 @@ const router = createBrowserRouter([
         path: "/off-the-clock", 
         element: <OffTheClockSection />,
       },
-      {
-        path: "/resume",
-        element: <ResumePage />,
-      }
     ]
   }
 ])
