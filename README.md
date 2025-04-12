@@ -35,17 +35,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Adityas3111N/MyPortfolio.git
 cd portfolio
 2️⃣ Install dependencies
-bash
-Copy
-Edit
+
 npm install
 3️⃣ Start the development server
-bash
-Copy
-Edit
+
 npm run dev
 Open your browser and navigate to:
 👉 http://localhost:3000
@@ -107,8 +103,3 @@ Special thanks to the following technologies and communities that made this proj
 🌟 Tip:
 Star ⭐ the repository if it helped or inspired you — it fuels more cool projects!
 
-vbnet
-Copy
-Edit
-
-Want me to create a `LICENSE` file too? Or maybe a clean resume PDF section with a plac
