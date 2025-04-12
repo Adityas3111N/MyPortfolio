@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@keyframes spin-slow {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .animate-spin-slow {
+    animation: spin-slow 30s linear infinite;
+  }
+  
+  @keyframes slowPulse {
+    0%, 100% { transform: scale(1); opacity: 0.2; }
+    50% { transform: scale(1.05); opacity: 0.3; }
+  }
+  
+  .animate-slow-pulse {
+    animation: slowPulse 15s ease-in-out infinite;
+  }
+  
+  .animate-spin-slower {
+    animation: spin 60s linear infinite;
+  }
+  
